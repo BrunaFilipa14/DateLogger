@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/trips.css">
+    <title>Trips</title>
+</head>
+<body>
+    <%- include('navbar.ejs') %>
+    <a id="title"> Trips </a>
+    <div class="trips">
+        <div class="planning">
+            <a href="/trips-planning"><img src="planning.png"></a>
+            <a class="text">Planning</a>
+        </div>
+        <div class="history">
+            <a href="/trips-history"><img src="history.png"></a>
+            <a class="text">History</a>
+        </div>
+        <div class="ratings">
+            <a href="/trips-ratings"><img src="ratings.png"></a>
+            <a class="text">Ratings</a>
+        </div>
+    </div>
+</body>
+</html>
